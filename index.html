@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The Santa Barbara Heights Charitable Trust provides grants to registered charities addressing poverty, disability, and research into life-shortening health conditions in England."
+    />
+    <title>Santa Barbara Heights Charitable Trust</title>
+
+    <!-- Bootstrap 5 CSS (CDN) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Icons (CDN) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom overrides -->
+    <link href="./style.css" rel="stylesheet" />
+    <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+</head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top sbhct-nav" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="#hero" aria-label="Santa Barbara Heights Charitable Trust home">
+          <img
+            src="./images/SBH Final Logo Web Cropped.png"
+            alt="SBH Final Logo Web Cropped"
+            class="brand-logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navLinks"
+          aria-controls="navLinks"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#what-we-do">What We Do</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#apply">Apply</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header
+      id="hero"
+      class="hero d-flex align-items-center"
+      style="
+        background-image: linear-gradient(rgba(10, 30, 20, 0.55), rgba(10, 30, 20, 0.65)),
+          url('./images/top_strip.avif');
+      "
+    >
+      <div class="container text-center hero-content">
+        <p class="hero-eyebrow text-uppercase mb-3">Santa Barbara Heights Charitable Trust</p>
+        <h1 class="display-3 fw-bold mb-3">Helping to fund registered charities</h1>
+        <p class="lead mx-auto mb-4">
+          Supporting poverty relief, disability charities, and research into life-shortening health
+          conditions across England.
+        </p>
+        <div class="d-flex justify-content-center gap-3 flex-wrap">
+          <a href="#apply" class="btn btn-primary btn-lg">Apply for a grant</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Cause Highlights -->
+      <section class="py-5">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-12 col-md-4">
+              <div class="cause-card h-100">
+                <img
+                  src="/images/disabilities.avif"
+                  alt="A stylised illustration of a human brain made from interlocking gear‑like puzzle pieces in blue, cyan and pink, glowing against a dark background"
+                  class="img-fluid rounded-3 cause-img"
+                  loading="lazy"
+                />
+                <div class="cause-overlay">
+                  <div class="cause-overlay-content">
+                    <h3 class="h5 fw-bold mt-2 mb-1">Disabilities</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="cause-card h-100">
+                <img
+                  src="./images/poverty.avif"
+                  alt="Hands holding an empty food bowl"
+                  class="img-fluid rounded-3 cause-img"
+                  loading="lazy"
+                />
+                <div class="cause-overlay">
+                  <div class="cause-overlay-content">
+                    <h3 class="h5 fw-bold mt-2 mb-1">Poverty</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="cause-card h-100">
+                <img
+                  src="./images/research.avif"
+                  alt="Pink cells attached to a larger green structure under a microscope"
+                  class="img-fluid rounded-3 cause-img"
+                  loading="lazy"
+                />
+                <div class="cause-overlay">
+                  <div class="cause-overlay-content">
+                    <h3 class="h5 fw-bold mt-2 mb-1">Research into life-shortening health conditions</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <!-- What We Do -->
+      <section id="what-we-do" class="py-6">
+        <div class="container">
+          <div class="row g-5 align-items-center">
+            <div class="col-12">
+              <p class="section-eyebrow text-uppercase fw-semibold mb-2">What We Do</p>
+              <h2 class="display-5 fw-bold mb-4">Funding that makes a difference</h2>
+              <p class="mb-3">
+                The Santa Barbara Heights Charitable Trust welcomes applications from registered charities
+                which address poverty, conduct research into life-shortening health conditions, or support
+                disability charities in England. We particularly encourage charities benefitting the Jewish
+                Community to apply.
+              </p>
+              <p class="mb-4">
+                Grants would normally be for between <strong>£100 and £2,000</strong> and may be for small
+                capital items or project costs.
+              </p>
+              <h5 class="fw-bold mb-3">Please only apply if your charity has a turnover of:</h5>
+              <ul class="list-unstyled turnover-list">
+                <li class="d-flex align-items-start gap-3 mb-3">
+                  <span class="turnover-icon"><i class="bi bi-bank2"></i></span>
+                  <span><strong>Poverty:</strong> between £20k and £500k</span>
+                </li>
+                <li class="d-flex align-items-start gap-3 mb-3">
+                  <span class="turnover-icon"><i class="bi bi-clipboard2-pulse"></i></span>
+                  <span
+                    ><strong>Research into life-shortening health conditions:</strong> between £100k and £30
+                    million</span
+                  >
+                </li>
+                <li class="d-flex align-items-start gap-3 mb-3">
+                  <span class="turnover-icon"><i class="bi bi-person-wheelchair"></i></span>
+                  <span><strong>Support for disability charities:</strong> up to £300k</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Us -->
+      <section id="about" class="py-6 bg-light-subtle about-section">
+        <div class="container">
+          <div class="row g-5 align-items-center">
+
+            <div class="col-lg-6">
+              <p class="section-eyebrow text-uppercase fw-semibold mb-2">About Us</p>
+              <h2 class="display-5 fw-bold mb-4">A trust founded on compassion</h2>
+              <p class="mb-3">
+                The Santa Barbara Heights Charitable Trust was set up in July 2020 by Tracey &amp; Bernard
+                Yardley, in Manchester, England.
+              </p>
+              <p class="mb-3">
+                With the arrival of COVID-19, the issue of poverty has been highlighted. Tracey regularly
+                delivers food parcels to needy families, and recognises the importance of foodbanks.
+              </p>
+              <p class="mb-3">
+                One of the major issues that the Yardleys feel passionate about, is funding research into
+                life-shortening health conditions such as Motor Neurone Disease and Multiple Sclerosis. We
+                have also supported research into brain tumours. In an ideal world we want to be able to
+                treat these conditions and to help provide tailored treatments for different types of cancer.
+              </p>
+              <p class="mb-4">
+                Having been carers for a son with Asperger's Syndrome for many years, we would also like to
+                support charities who assist people with disabilities.
+              </p>
+              <div class="about-statement">
+                <p class="mb-0">
+                  We are happy to fund charities from all walks of life, but we want to make it clear that as
+                  Jews we will not tolerate anti-semitism, and will not donate to any charities who promote
+                  anti-Jewish rhetoric. As British Jews we are not responsible for the actions of the Israeli
+                  government. We will not donate to charities whose representatives boycott Israel and Israeli
+                  products.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img
+                src="./images/splash.avif"
+                alt="A splash of water frozen in time"
+                class="img-fluid rounded-4 about-img"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Apply for a Grant -->
+      <section id="apply" class="py-6 apply-section">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-7">
+              <p class="section-eyebrow text-uppercase fw-semibold mb-2 text-success">Apply for a Grant</p>
+              <h2 class="display-5 fw-bold mb-4">How to apply</h2>
+              <p class="mb-4">
+                If you wish to apply for a grant, please write to us outlining in no more than
+                <strong>1,000 words</strong>:
+              </p>
+              <div class="row g-3 mb-4">
+                <div class="col-12">
+                  <div class="apply-item d-flex align-items-start gap-3">
+                    <span class="apply-number">1</span>
+                    <p class="mb-0">The need you are meeting and the evidence you have for that need.</p>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="apply-item d-flex align-items-start gap-3">
+                    <span class="apply-number">2</span>
+                    <p class="mb-0">The outcomes you hope to achieve with our funding.</p>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="apply-item d-flex align-items-start gap-3">
+                    <span class="apply-number">3</span>
+                    <p class="mb-0">The work you intend to deliver to meet the need and achieve the outcomes.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="apply-note">
+                <p class="mb-2">
+                  You should include a budget with your application but no further documentation is necessary.
+                  Please ensure that you indicate your <strong>registered charity number</strong>.
+                </p>
+                <p class="mb-0">
+                  Applications from any single organisation will only be considered once every 12 months.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="apply-card">
+                <h3 class="h4 fw-bold mb-3"><i class="bi bi-calendar-event me-2"></i>Submission deadlines</h3>
+                <div class="deadline-box mb-3">
+                  <div class="deadline-date">30<sup>th</sup> April</div>
+                  <div class="deadline-label">Spring consideration round</div>
+                </div>
+                <div class="deadline-box mb-4">
+                  <div class="deadline-date">30<sup>th</sup> October</div>
+                  <div class="deadline-label">Autumn consideration round</div>
+                </div>
+                <div class="deadline-info">
+                  <p class="small mb-0">
+                    <i class="bi bi-info-circle me-1"></i>
+                    If you do not hear back from us within 2 months of these dates, your application will not
+                    have been successful.
+                  </p>
+                </div>
+                <a href="mailto:sbhct@yahoo.com" class="btn btn-primary btn-lg w-100 mt-3">
+                  <i class="bi bi-envelope-fill me-2"></i>Email your application
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="py-5 bg-dark text-light">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-md-8">
+              <h2 class="h4 fw-bold mb-2">Get in touch</h2>
+              <p class="mb-0 text-light-emphasis">
+                Email us at
+                <a href="mailto:sbhct@yahoo.com" class="text-success-emphasis fw-semibold">sbhct@yahoo.com</a>
+                &nbsp;|&nbsp; Registered Charity No. 1189465
+              </p>
+            </div>
+            <div class="col-md-4 text-md-end">
+              <a href="mailto:sbhct@yahoo.com" class="btn btn-outline-light">
+                <i class="bi bi-envelope me-1"></i>Contact us
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-bar">
+      <div class="container">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+          <span>© 2022–2026 SBHCT &nbsp;|&nbsp; Santa Barbara Heights Charitable Trust</span>
+          <span class="footer-credit"
+            >Website originally designed by
+            <a href="https://www.thriveonline.co.uk" target="_blank" rel="noopener">Thrive Online</a>
+            , rebuilt by <a href="https://bolt.new" target="_blank" rel="noopener">bolt.new</a>, and manually touched up by the trustees</span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS bundle (CDN) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom JS -->
+    <script src="./main.js"></script>
+  </body>
+</html>
